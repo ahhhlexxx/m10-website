@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Home Page",
     "section": "",
-    "text": "This website is for my M10 assignment. I created it to practice building a Quarto website, adding a dashboard, and explaining Shiny apps in a simple way.\n\n\nName: Alexandria Jaimes\nCareer Goal: My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people.\n\n\n\nI will add my photo here later.\n\n\n\n\nDigital marketing\nSocial media\nContent creation\nData analysis in R\nQuarto reports and websites\nExcel and basic data cleaning\n\n\n\n\nI’m a student at Cal Poly Pomona. Through this class, I’ve been learning how to use R, Quarto, dashboards, and websites to organize and share data projects."
+    "text": "This website is for my M10 assignment. I created it to practice building a Quarto website, adding a dashboard, and explaining Shiny apps in a simple way.\n\n\nName: Alexandria Jaimes\nCareer Goal: My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people.\n\n\n\n\n\n\n\n\nDigital marketing\nSocial media\nContent creation\nData analysis in R\nQuarto reports and websites\nExcel and basic data cleaning\n\n\n\n\nI’m a student at Cal Poly Pomona. Through this class, I’ve been learning how to use R, Quarto, dashboards, and websites to organize and share data projects."
   },
   {
     "objectID": "index.html#about-me",
@@ -26,13 +26,6 @@
     "title": "Home Page",
     "section": "",
     "text": "Name: Alexandria Jaimes\nCareer Goal: My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people."
-  },
-  {
-    "objectID": "index.html#photo-placeholder",
-    "href": "index.html#photo-placeholder",
-    "title": "Home Page",
-    "section": "",
-    "text": "I will add my photo here later."
   },
   {
     "objectID": "index.html#skills",

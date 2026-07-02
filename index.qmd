@@ -12,9 +12,9 @@ This website is for my M10 assignment. I created it to practice building a Quart
 
 **Career Goal:** My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people.
 
-## Photo Placeholder
+## My Photo
 
-I will add my photo here later.
+![](profile.jpg){width="250"}
 
 ## Skills
 
