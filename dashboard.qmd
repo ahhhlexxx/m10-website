@@ -1,0 +1,79 @@
+---
+title: "Dashboard"
+format: dashboard
+---
+
+```{r}
+library(tidyverse)
+
+car_data <- mtcars |>
+  rownames_to_column("car") |>
+  as_tibble()
+```
+
+# Car Data Dashboard
+
+This dashboard uses the built-in `mtcars` dataset in R. I used this dataset because it is simple, already available in R, and works well for practicing dashboard layouts.
+
+## Row
+
+### Number of Cars
+
+```{r}
+nrow(car_data)
+```
+
+### Average MPG
+
+```{r}
+round(mean(car_data$mpg), 1)
+```
+
+### Average Horsepower
+
+```{r}
+round(mean(car_data$hp), 1)
+```
+
+## Row
+
+### MPG by Number of Cylinders
+
+```{r}
+car_data |>
+  group_by(cyl) |>
+  summarize(avg_mpg = mean(mpg), .groups = "drop") |>
+  ggplot(aes(x = factor(cyl), y = avg_mpg)) +
+  geom_col() +
+  labs(
+    title = "Average MPG by Cylinders",
+    x = "Cylinders",
+    y = "Average MPG"
+  ) +
+  theme_minimal()
+```
+
+### Horsepower and MPG
+
+```{r}
+car_data |>
+  ggplot(aes(x = hp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    title = "Horsepower and MPG",
+    x = "Horsepower",
+    y = "Miles Per Gallon"
+  ) +
+  theme_minimal()
+```
+
+## Row
+
+### Car Data Table
+
+```{r}
+car_data |>
+  select(car, mpg, cyl, hp, wt) |>
+  arrange(desc(mpg))
+```

@@ -1,0 +1,17 @@
+{
+  "hash": "488d681a4e9437c8f3bd39abebf02645",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Dashboard\"\nformat: dashboard\n---\n\n\n::: {.cell}\n\n:::\n\n\n# Car Data Dashboard\n\nThis dashboard uses the built-in `mtcars` dataset in R. I used this dataset because it is simple, already available in R, and works well for practicing dashboard layouts.\n\n## Row\n\n### Number of Cars\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 32\n```\n\n\n:::\n:::\n\n\n### Average MPG\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 20.1\n```\n\n\n:::\n:::\n\n\n### Average Horsepower\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 146.7\n```\n\n\n:::\n:::\n\n\n## Row\n\n### MPG by Number of Cylinders\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-5-1.png){width=768}\n:::\n:::\n\n\n### Horsepower and MPG\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-6-1.png){width=768}\n:::\n:::\n\n\n## Row\n\n### Car Data Table\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 32 × 5\n   car              mpg   cyl    hp    wt\n   <chr>          <dbl> <dbl> <dbl> <dbl>\n 1 Toyota Corolla  33.9     4    65  1.84\n 2 Fiat 128        32.4     4    66  2.2 \n 3 Honda Civic     30.4     4    52  1.62\n 4 Lotus Europa    30.4     4   113  1.51\n 5 Fiat X1-9       27.3     4    66  1.94\n 6 Porsche 914-2   26       4    91  2.14\n 7 Merc 240D       24.4     4    62  3.19\n 8 Datsun 710      22.8     4    93  2.32\n 9 Merc 230        22.8     4    95  3.15\n10 Toyota Corona   21.5     4    97  2.46\n# ℹ 22 more rows\n```\n\n\n:::\n:::\n\n",
+    "supporting": [
+      "dashboard_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

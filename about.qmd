@@ -1,0 +1,15 @@
+---
+title: "Essay on Shiny Apps"
+---
+
+# Essay on Shiny Apps
+
+Shiny is a tool in R that lets people make interactive web apps. Instead of only showing a regular report or chart, Shiny lets the user click, filter, and change what they see on the page.
+
+One example would be a marketing dashboard. A company could use a Shiny app to let people choose a month, campaign, or social media platform. Then the app could update the charts and tables based on what they selected. This makes the information easier to explore.
+
+A regular Quarto report is good for sharing final results, but a Shiny app is better when the audience needs to interact with the data. This can help coworkers answer their own questions without needing to change the code.
+
+Some good things about Shiny are that it works with R, it can make dashboards more interactive, and it can help explain data better. One challenge is that Shiny apps can be harder to build than regular reports because they need more code and testing.
+
+Overall, Shiny is useful when the goal is to make data more interactive. It gives the audience more control over what they want to see.

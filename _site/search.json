@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Essay on Shiny Apps\nShiny is a tool in R that lets people make interactive web apps. Instead of only showing a regular report or chart, Shiny lets the user click, filter, and change what they see on the page.\nOne example would be a marketing dashboard. A company could use a Shiny app to let people choose a month, campaign, or social media platform. Then the app could update the charts and tables based on what they selected. This makes the information easier to explore.\nA regular Quarto report is good for sharing final results, but a Shiny app is better when the audience needs to interact with the data. This can help coworkers answer their own questions without needing to change the code.\nSome good things about Shiny are that it works with R, it can make dashboards more interactive, and it can help explain data better. One challenge is that Shiny apps can be harder to build than regular reports because they need more code and testing.\nOverall, Shiny is useful when the goal is to make data more interactive. It gives the audience more control over what they want to see."
+  },
+  {
+    "objectID": "shiny-live.html",
+    "href": "shiny-live.html",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Essay on Shinylive\nShinylive is a way to run Shiny apps in the web browser. A regular Shiny app usually needs a server to run the R code, but Shinylive can run without the same kind of server setup.\nThis is useful because it can make sharing small Shiny apps easier. Instead of worrying as much about hosting or server setup, the app can run more directly in the browser. That can be helpful for examples, class projects, and simple interactive apps.\nThe main difference is that traditional Shiny apps usually depend on a server, while Shinylive is more serverless. This makes Shinylive easier to share in some cases, but it may not be the best choice for every project.\nSome pros of Shinylive are that it can be easier to publish, it can work well for small examples, and it can make interactive apps easier to share. Some cons are that it may have limits with bigger apps, large datasets, or more complicated projects.\nOverall, Shinylive seems helpful when the app is simple and the goal is to share it quickly. For bigger or more serious apps, a regular Shiny app may still be better."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home Page",
+    "section": "",
+    "text": "This website is for my M10 assignment. I created it to practice building a Quarto website, adding a dashboard, and explaining Shiny apps in a simple way.\n\n\nName: Alexandria Jaimes\nCareer Goal: My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people.\n\n\n\nI will add my photo here later.\n\n\n\n\nDigital marketing\nSocial media\nContent creation\nData analysis in R\nQuarto reports and websites\nExcel and basic data cleaning\n\n\n\n\nI’m a student at Cal Poly Pomona. Through this class, I’ve been learning how to use R, Quarto, dashboards, and websites to organize and share data projects."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home Page",
+    "section": "",
+    "text": "Name: Alexandria Jaimes\nCareer Goal: My career goal is to work in digital marketing. I’m interested in using creativity, social media, and data to help brands connect with people."
+  },
+  {
+    "objectID": "index.html#photo-placeholder",
+    "href": "index.html#photo-placeholder",
+    "title": "Home Page",
+    "section": "",
+    "text": "I will add my photo here later."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Home Page",
+    "section": "",
+    "text": "Digital marketing\nSocial media\nContent creation\nData analysis in R\nQuarto reports and websites\nExcel and basic data cleaning"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home Page",
+    "section": "",
+    "text": "I’m a student at Cal Poly Pomona. Through this class, I’ve been learning how to use R, Quarto, dashboards, and websites to organize and share data projects."
+  }
+]
